@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(100, 154, 202);
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>h1 {
+    font-size: 60px;
+}
+
+main {
+    background-color: rgb(125, 173, 214);
+    text-align: center;
+    font-size: 21px;
+    width: 100%;
+    height: 700px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.text-container {
+    padding-top: 30px;
+}
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+button {
+    font-size: larger;
+}
+
+footer {
+    background-color: rgb(100, 154, 202);
+    width: 100%;
+    height: 100px;
+    flex: 1 1 auto;
+}
